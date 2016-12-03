@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Creation Of nested objects</title></head>
+
+<h2>Creating a  nested objects</h2>
+<script>
+var employee = {name:"Sagar",age:27, salary:"3.9 lac per annum", address:{address1:"kolhapur",address2:"pune maharashtra",address3:"satara maharashtra"}};
+
+alert(employee.name + ", "+ employee.age +" ,"+ employee.salary+ ", "+employee.address.address1+ " ,"+employee.address.address2+", "+employee.address.address3);
+document.write(employee.name + " ,"+ employee.age +" ,"+ employee.salary+ " ,"+employee.address.address1+ " ,"+employee.address.address2+", "+employee.address.address3)
+</script>
+<body>
+
+<h2>This is a theme demo for the heading</h2>
+<p text-align="center">Nature, in the broadest sense, is the natural, physical, or material world or universe. "Nature" can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena.</p>
+</body>
+</html>
+
